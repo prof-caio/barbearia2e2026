@@ -9,8 +9,22 @@ h2{
     text-align: center;
 }
 body{
-    background-color: rgb(9, 255, 230);
+    background-image: url("https://media.tenor.com/KufboHmMzoIAAAAM/recaba-luva-de-pedreiro.gif");
+    background-size: 300px;
 }
 img{
-    width: 100px;
+    width: 200px;
+}
+footer{
+    background-color: chartreuse;
+}
+.imagem{
+    text-align: center;
+    background-color: rgba(156, 13, 156, 0.349);
+    width: 300px;
+    margin: auto;
+    border-style: dashed;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    border-color: aliceblue;
 }
