@@ -1,5 +1,11 @@
 header{
     background-color: cadetblue;
+    padding: 20px 0;
+}
+nav{
+    position: absolute;
+    top: 40px;
+    right: 0;
 }
 nav li {
     display: inline;
@@ -11,4 +17,30 @@ nav a{
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    height: 100px;
+    margin: 0 auto;
+}
+h1 img{
+    width: 150px;
+}
+.servicos{
+    width: 940px; /*mesmo valor do width da caixa*/
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.servicos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+.servicos img{
+    width: 200px;
 }
